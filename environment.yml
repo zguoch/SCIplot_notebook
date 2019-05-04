@@ -1,0 +1,12 @@
+name: Notebook_ModernGMT
+channels:
+    - conda-forge/label/dev
+    - conda-forge
+    - defaults
+dependencies:
+    - python=3.6
+    - pip
+    - numpy
+    - pandas
+    - matplotlib
+    - jupyter
