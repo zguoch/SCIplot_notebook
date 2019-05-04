@@ -1,0 +1,104 @@
+# 此style文件主要设置大小，如线宽，图片大小，字体大小等
+# Paper的宽度一般是A4纸宽(21cm x 29.7cm)，除去页边距(3+3=6cm)
+# 大图，整张纸宽：15cm
+# 二分之一小图：7cm
+# 一般paper上的图就这两种规格，这个尺寸值得是figure的尺寸，figure里面还可以分subplot
+# 高度如果不按比例的话，默认是16:9
+# 默认宽度为8inch，与高度比例是16：9
+
+### FIGURE
+# See http://matplotlib.org/api/figure_api.html#matplotlib.figure.Figure
+figure.figsize   : 8, 4.5   # figure size in inches
+
+### FONT
+font.size           : 10
+#font.family         : sans-serif
+#font.style          : normal
+#font.variant        : normal
+#font.weight         : medium
+#font.stretch        : normal
+# note that font.size controls default text sizes.  To configure
+# special text sizes tick labels, axes, labels, title, etc, see the rc
+# settings for axes and ticks. Special text sizes can be defined
+# relative to font.size, using the following values: xx-small, x-small,
+# small, medium, large, x-large, xx-large, larger, or smaller
+#font.serif          : DejaVu Serif, Bitstream Vera Serif, New Century Schoolbook, Century Schoolbook L, Utopia, ITC Bookman, Bookman, Nimbus Roman No9 L, Times New Roman, Times, Palatino, Charter, serif
+font.sans-serif     : STSong, DejaVu Sans, Bitstream Vera Sans, Lucida Grande, Verdana, Geneva, Lucid, Arial, Helvetica, Avant Garde, sans-serif
+#font.cursive        : Apple Chancery, Textile, Zapf Chancery, Sand, Script MT, Felipa, cursive
+#font.fantasy        : Comic Sans MS, Chicago, Charcoal, Impact, Western, Humor Sans, xkcd, fantasy
+#font.monospace      : DejaVu Sans Mono, Bitstream Vera Sans Mono, Andale Mono, Nimbus Mono L, Courier New, Courier, Fixed, Terminal, monospace
+
+
+### Line
+lines.linewidth   : 1
+
+
+### TICKS
+# see http://matplotlib.org/api/axis_api.html#matplotlib.axis.Tick
+xtick.top            : False   # draw ticks on the top side
+xtick.bottom         : True   # draw ticks on the bottom side
+xtick.major.size     : 2      # major tick size in points
+xtick.minor.size     : 1.5      # minor tick size in points
+xtick.major.width    : 1    # major tick width in points
+xtick.minor.width    : 0.5    # minor tick width in points
+xtick.major.pad      : 3.5      # distance to major tick label in points
+xtick.minor.pad      : 3.4      # distance to the minor tick label in points
+# xtick.color          : k      # color of the tick labels
+xtick.labelsize      : medium # fontsize of the tick labels
+xtick.direction      : out    # direction: in, out, or inout
+xtick.minor.visible  : True  # visibility of minor ticks on x-axis
+xtick.major.top      : True   # draw x axis top major ticks
+xtick.major.bottom   : True   # draw x axis bottom major ticks
+xtick.minor.top      : True   # draw x axis top minor ticks
+xtick.minor.bottom   : True   # draw x axis bottom minor ticks
+
+ytick.left           : True   # draw ticks on the left side
+ytick.right          : False  # draw ticks on the right side
+ytick.major.size     : 2      # major tick size in points
+ytick.minor.size     : 1.5      # minor tick size in points
+ytick.major.width    : 1    # major tick width in points
+ytick.minor.width    : 0.5    # minor tick width in points
+ytick.major.pad      : 3.5      # distance to major tick label in points
+ytick.minor.pad      : 3.4      # distance to the minor tick label in points
+#ytick.color          : k      # color of the tick labels
+ytick.labelsize      : medium # fontsize of the tick labels
+ytick.direction      : out    # direction: in, out, or inout
+ytick.minor.visible  : True  # visibility of minor ticks on y-axis
+ytick.major.left     : True   # draw y axis left major ticks
+ytick.major.right    : True   # draw y axis right major ticks
+ytick.minor.left     : True   # draw y axis left minor ticks
+ytick.minor.right    : True   # draw y axis right minor ticks
+
+
+### GRIDS
+#grid.color       :   b0b0b0    # grid color
+#grid.linestyle   :   -         # solid
+#grid.linewidth   :   0.8       # in points
+#grid.alpha       :   1.0       # transparency, between 0.0 and 1.0
+
+#####################color theme normal##################################
+### FIGURE
+figure.facecolor : white   # figure facecolor; 0.75 is scalar gray
+figure.edgecolor : white   # figure edgecolor
+
+### AXES
+axes.facecolor      : white   # axes background color
+axes.edgecolor      : black   # axes edge color
+xtick.color          : black      # color of the tick labels
+ytick.color          : black      # color of the tick labels
+axes.labelcolor     : black
+
+### SAVING FIGURES
+savefig.dpi         : figure   # figure dots per inch or 'figure'
+savefig.facecolor   : white    # figure facecolor when saving
+savefig.edgecolor   : white    # figure edgecolor when saving
+#savefig.transparent : True
+
+### TEXT
+text.color          : black
+
+### GRIDS
+grid.color       :   b0b0b0    # grid color
+grid.linestyle   :   -         # solid
+grid.linewidth   :   0.4       # in points
+grid.alpha       :   0.3       # transparency, between 0.0 and 1.0

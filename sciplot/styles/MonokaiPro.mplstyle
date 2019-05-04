@@ -1,0 +1,20 @@
+### FIGURE
+figure.facecolor : 2E2A2E   # figure facecolor; 0.75 is scalar gray
+figure.edgecolor : 2E2A2E   # figure edgecolor
+
+### AXES
+axes.facecolor      : 2E2A2E   # axes background color
+axes.edgecolor      : white   # axes edge color
+axes.prop_cycle    : cycler('color', ['1f77b4', 'ff7f0e', '2ca02c', 'd62728', '9467bd', '8c564b', 'e377c2', '7f7f7f', 'bcbd22', '17becf'])
+xtick.color          : w      # color of the tick labels
+ytick.color          : w      # color of the tick labels
+axes.labelcolor     : white
+
+### SAVING FIGURES
+savefig.dpi         : figure   # figure dots per inch or 'figure'
+savefig.facecolor   : 2E2A2E    # figure facecolor when saving
+savefig.edgecolor   : 2E2A2E    # figure edgecolor when saving
+#savefig.transparent : True
+
+### TEXT
+text.color          : white
